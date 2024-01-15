@@ -1,6 +1,7 @@
+import React from "react";
 import useGenres from "../hooks/useGenres";
 
-const GenreList = () => {
+export const GenreList = () => {
   const { data } = useGenres();
   return (
     <ul>
@@ -10,5 +11,3 @@ const GenreList = () => {
     </ul>
   );
 };
-
-export default GenreList;
